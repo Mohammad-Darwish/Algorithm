@@ -26,24 +26,7 @@ HELP.md
 k8s-logs/
 .m2/
 
-### SonarQube Working Directory ###
-?/
-
-### Spinnaker Temporary Properties ###
-artifact.properties
-
 ### REST2HTML Artifacts ###
 rest2html*.zip
 rest_conversion_log.txt
 **/*.zip
-
-### OpenAPI Generator ###
-.openapi-generator/
-**/resources/v*/*.html
-
-### k6 generated files ###
-k6-test-results.html
-
-### ignore CI-Jenkinsfiles
-ci/common_precodereview.Jenkinsfile
-ci/common_ruleset2.0.yaml
